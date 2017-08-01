@@ -18,6 +18,6 @@ Teclado virtual com suporte a acentos e caracteres especiais.
 
 - Internacional >> Layouts do Teclado
 
-- Selecione os teclados "Portuguese (Brazil) QUERTY" e "Secial QUERTY"
+- Selecione os teclados "Portuguese (Brazil) QUERTY" e "Special QUERTY"
 
 
