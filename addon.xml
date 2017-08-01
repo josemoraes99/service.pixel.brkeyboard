@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.pixel.brkeyboard" name="[COLOR FFFF6B00]Teclado BR[/COLOR]" version="1.0.0" provider-name="josemoraes">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+    </requires>
+    <extension point="xbmc.service" library="addon.py" start="[login|startup]">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <language>en</language>
+        <platform>all</platform>
+        <summary>Push Strings</summary>
+        <description>On Screen Keyboard em português brasileiro com acentos. Após instalado dois novos teclados estarão disponíveis, Portuguese (Brazil) QUERTY e Special QUERTY. Para selecionar esses teclados: SISTEMA -> Aparência -> Internacional -> Layouts do Teclado. Desmarcar o teclado English e selecionar os dois novos. (lembrando que o nível de ajuste deve estar pelo menos em Padrão)</description>
+        <license>GNU General Public License, v2</license>
+    </extension>
+</addon>
