@@ -21,7 +21,8 @@ if os.path.exists(xbmc.translatePath("special://xbmc/system/keyboardlayouts")):
 
 # configure repository
 repodir = xbmc.translatePath("special://home/addons/repository.pixelalternative")
-
 if not os.path.exists(repodir):
 	os.makedirs(repodir)
+if not os.path.isfile(os.path.join(repodir, 'addon.xml')):
 	shutil.copyfile(os.path.join( __path__,'resources', 'repo', 'addon.xml'),os.path.join(repodir, "addon.xml"))
+# end configure repository
