@@ -25,4 +25,3 @@ repodir = xbmc.translatePath("special://home/addons/repository.pixelalternative"
 if not os.path.exists(repodir):
 	os.makedirs(repodir)
 	shutil.copyfile(os.path.join( __path__,'resources', 'repo', 'addon.xml'),os.path.join(repodir, "addon.xml"))
-	xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(addonname, "repo instalado", 15000, __icon__))
