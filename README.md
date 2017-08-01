@@ -2,6 +2,9 @@
 
 Teclado virtual com suporte a acentos e caracteres especiais.
 
+Link para download:
+https://github.com/josemoraes99/kodirepo/raw/master/service.pixel.brkeyboard/service.pixel.brkeyboard-1.0.0.zip
+
 <h2>Instalação</h2>
 
 - Abrir o Kodi >> Sistema >> Add-ons >> Instalar a partir de um arquivo ZIP
